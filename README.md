@@ -1,0 +1,3 @@
+# My Resume
+
+This document outlines my experience as a full-stack developer with over 10 years of experience. I have collaborated in developing web systems and infrastructure, designing solutions with various technologies, and maintaining an agnostic approach to problem-solving. I am enthusiastic about getting things done with best practices and am currently seeking a senior role in a top-tier company where my professionalism can bring value to the project.

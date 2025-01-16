@@ -1,4 +1,12 @@
-import { Mail, MapPin, Phone, Linkedin, Github, Code } from "lucide-react";
+import {
+  Mail,
+  MapPin,
+  Phone,
+  Linkedin,
+  Github,
+  Code,
+  Calendar,
+} from "lucide-react";
 
 const Header = () => {
   return (
@@ -15,8 +23,15 @@ const Header = () => {
               <span>Tepic, Nayarit</span>
             </div>
             <div className="flex items-center gap-2 hover:translate-x-2 transition-transform duration-300">
-              <Phone className="w-5 h-5 animate-pulse" />
-              <span>3111323793</span>
+              <Calendar className="w-5 h-5 animate-pulse" />
+              <a
+                href="https://calendly.com/elberthcabrales"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-resume-accent underline-offset-4 hover:underline transition-all"
+              >
+                Interview Schedule
+              </a>
             </div>
             <div className="flex items-center gap-2 hover:translate-x-2 transition-transform duration-300">
               <Mail className="w-5 h-5 animate-pulse" />

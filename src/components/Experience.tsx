@@ -26,8 +26,8 @@ const ExperienceItem = ({ job }: { job: Job }) => {
 
       <ul
         className={`
-          space-y-1 overflow-hidden transition-all duration-500 ease-in-out
-          ${isOpen ? "opacity-100 max-h-96" : "opacity-0 max-h-0"}
+          space-y-1 overflow-y-auto transition-all duration-500 ease-in-out pr-2
+          ${isOpen ? "opacity-100 max-h-[500px] sm:max-h-[600px]" : "opacity-0 max-h-0"}
         `}
       >
         {job.responsibilities.map((responsibility, index) => (
